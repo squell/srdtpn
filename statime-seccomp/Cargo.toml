@@ -1,11 +1,14 @@
 [package]
-name = "statime-seccomp"
+name = "srdtpn-seccomp"
 license = "Apache-2.0 OR MIT"
 version = "1.0.0-testing.1"
 edition = "2024"
 readme = "./NOTICE.md"
-publish = true
+publish = false
 rust-version = "1.95" # MSRV
+
+[lib]
+name = "statime_seccomp"
 
 [lints.rust]
 missing_docs = "deny"
